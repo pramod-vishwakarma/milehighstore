@@ -1,0 +1,60 @@
+html body{
+	font-family:"Source Sans Pro",sans-serif;font-weight:400;color:#303030
+}
+p,ol,ul,li{
+	font-size: 14px;
+	line-height: 1.5;
+    padding: 15px;
+    text-align: justify;
+    text-transform: capitalize;
+}   
+h1,h2,h3,h4,h5,h6,li,a,ul,p{
+    color:#303030;
+}
+#no-padding p{
+    padding: 0;
+    margin: 10px;
+    font-size: 14px;
+	line-height: 1.5;
+    text-align: justify;
+    text-transform: capitalize;
+    
+}
+#mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9000;
+  background-color: #000;
+  display: none;
+}
+
+#boxes .window {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 440px;
+  height: 200px;
+  display: none;
+  z-index: 9999;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#boxes #dialog {
+  width: 750px;
+  height: 300px;
+  padding: 10px;
+  background-color: #ffffff;
+  font-family: 'Segoe UI Light', sans-serif;
+  font-size: 15pt;
+}
+
+#popupfoot {
+  font-size: 16pt;
+  position: absolute;
+  bottom: 0px;
+  width: 250px;
+  left: 250px;
+}

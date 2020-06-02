@@ -1,0 +1,98 @@
+ul.information li
+{
+	display: inline;
+	/* padding-right: 15px; */
+}
+ul.information li a
+{
+	padding-right: 0px;
+	font-size: 14px;
+}
+ul.information
+{
+	margin-top: 15px;
+
+}
+.button{
+	padding: 8px 22px 16px !important;
+}
+.wrapper
+{
+	text-align: justify;
+	padding: 5px;
+}
+.wrapper ol li
+{
+	list-style-type: decimal;
+	padding: 20px 0px;
+	line-height: 1.8;
+}
+.wrapper ol, .wrapper ul
+{
+	padding: 0px 10px;
+}
+.wrapper ul li
+{
+	list-style-type: circle;
+	padding: 10px 0px;
+	line-height: 1.8;
+}
+.flex{
+	text-align: center;
+}
+.toCenter{
+	text-align: center !important;
+}
+.fix-12-12 ae-5{
+margin: 0 auto;
+}
+
+.iframe{
+	display: block;
+	position: absolute;
+
+	/* height: 590px; */
+}
+.fromLeft{
+	text-align: center;
+}
+.fix-10-12{
+	text-align: center; 
+}
+.container-fluid .wrap:not(.noSpaces) {
+    padding: calc(0.6% + 50px) calc(8% + 15px);
+}
+.fix-12-12 {
+    max-width: 100%!important;
+}
+@media (min-width: 767px) {
+	.pad.shadow {
+		box-shadow: none;
+		/* margin-top: 226px; */
+	}
+	.map-responsive{
+		position: relative;
+		width: 100%;
+		padding-bottom: 56.25%
+		
+	}
+	.map-responsive iframe{
+		display: block;
+		position: absolute;
+		/* width: 312px; */
+		/* height: 516px; */
+	}
+	.pad {
+		border-radius: 6px;
+		padding: 5%;
+		color: #303030;
+		background: #fff;
+	}
+	p:not(.hero)+p {
+		margin-top: -44px;
+	}
+	p{
+		padding: 10px;
+	}
+}
+/*newsletter*/
